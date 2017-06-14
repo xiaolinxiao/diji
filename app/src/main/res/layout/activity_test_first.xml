@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test_first"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zrdz.diji.home.pilequery.activity.TestFirstActivity">
+
+    <TextView
+        android:id="@+id/base1_text_company"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/corner_list_bg"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/base1_edit_pileno"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/base1_text_company"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/corner_list_bg"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/pilenum"
+        android:inputType="textPersonName"
+        android:textSize="15sp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/base1_edit_pileno"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/to"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/base1_text_starttime"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toStartOf="@+id/textView5"
+            android:background="@drawable/corner_list_bg"
+            android:gravity="center"
+            android:hint="@string/starttime" />
+
+        <TextView
+            android:id="@+id/base1_text_endtime"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15dp"
+            android:layout_toEndOf="@+id/textView5"
+            android:background="@drawable/corner_list_bg"
+            android:gravity="center"
+            android:hint="@string/endtime" />
+
+    </RelativeLayout>
+</RelativeLayout>

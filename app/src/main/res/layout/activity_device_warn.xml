@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_device_warn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zrdz.diji.home.pilequery.activity.DeviceWarnActivity">
+
+    <EditText
+        android:id="@+id/query_project"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/corner_list_bg"
+        android:gravity="center"
+        android:hint="@string/projectname1" />
+
+    <TextView
+        android:id="@+id/query_station"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/query_project"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/corner_list_bg"
+        android:gravity="center"
+        android:hint="@string/qualitystation1"
+        android:inputType="textPersonName" />
+</RelativeLayout>

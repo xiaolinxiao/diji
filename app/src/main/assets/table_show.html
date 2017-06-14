@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.5, user-scalable=yes, minimum-scale=1.0, maximum-scale=3.0">
+		<title>压重堆载记录</title>
+
+<style type="text/css">
+.body{
+           background-color:#0099FF;
+           color:#ffffff;
+           font-family: Tahoma, Verdana, Arial, sans-serif;
+      }
+
+table{border-collapse:collapse;border-spacing:0;border-left:1px solid #fff;border-top:1px solid #fff;}
+th,td{border-right:1px solid #fff;border-bottom:1px solid #fff;padding:1px 1px;}
+th{font-weight:bold;}
+</style>
+
+ </head>
+ <body class="body">
+ <script src="js/react.min.js"></script>
+ <script src="js/JSXTransformer.js"></script>
+ <div id="main_content"></div>   
+     
+  
+
+</body>
+
+<script type="text/jsx">
+
+    var tableVo=[{"wtype":"","wsize":"","weight":"","wnumber":"","wsum":""},
+    {"wtype":"","wsize":"","weight":"","wnumber":"","wsum":""},
+    {"wtype":"","wsize":"","weight":"","wnumber":"","wsum":""},
+    {"wtype":"","wsize":"","weight":"","wnumber":"","wsum":""},
+    {"wtype":"","wsize":"","weight":"","wnumber":"","wsum":""}];
+
+    var i=1;
+    var Total=0;
+    
+    //for(var j=0;j<tableVo.length;j++){
+       // Total +=Number(tableVo[j].wsum);
+        //console.log(Total);
+    //}
+    
+    function alertNodata(){
+    	alert("没有查询到相关信息");
+    }
+    
+   	function renderNow(jsondata){
+   		console.log("zhixing render");
+		tableVo=eval('(' + jsondata + ')');
+		
+		for(var j=0;j<tableVo.length;j++){
+		if(tableVo[j].wsum!=""){
+        Total +=Number(tableVo[j].wsum);
+        }
+        console.log(Total);
+    	}
+		
+		
+		React.render(
+     		<ProductInfo items={tableVo}/>,
+        	document.getElementById('main_content')
+    	);
+		}
+      
+        function createPrdInfoItem(item) {
+               
+                return <tr>
+                        <td>{i++}</td>
+                        <td>{item.wtype}</td>
+                        <td>{item.wsize}</td>
+                        <td>{item.weight}</td>
+                        <td>{item.wnumber}</td>
+                        <td>{item.wsum}</td>
+                       </tr>;
+         }
+         
+     var ProductInfo = createTableComponent(createPrdInfoItem); 
+      
+     function createTableComponent(trFunc) {
+        return React.createClass({
+            render: function() {
+                var itemNodes = this.props.items.map(trFunc);
+                return (
+                    <table border="1" align="center">
+                        <caption>压重堆载记录</caption>
+                        <tr>
+                        <th>序号</th>
+                        <th>压重类型</th>
+                        <th>尺寸</th>
+                        <th>单个重量(t)</th>
+                        <th>数量(个)</th>
+                        <th>总重量(t)</th>
+                        </tr>
+                        {itemNodes}
+                        <tr>
+                        <td colSpan="5">合计</td>
+                        <td >{Total}</td>
+                        </tr>
+                        </table>
+                );
+            }
+    });
+    }     
+                
+    
+    //React.render(
+      //<ProductInfo items={tableVo}/>,
+       // document.getElementById('main_content')
+   // );
+    
+</script>
+
+</html>

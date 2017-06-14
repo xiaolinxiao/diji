@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="@drawable/corner_list_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:text="@string/projectname"
+            android:textColor="@color/black1" />
+
+        <TextView
+            android:id="@+id/item_pilenoquery_projectname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/textView18"
+            android:gravity="center_vertical"
+            android:text="TextView" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:text="@string/pileNo"
+            android:textColor="@color/black1" />
+
+        <TextView
+            android:id="@+id/item_pilenoquery_pileno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/textView19"
+            android:gravity="center_vertical"
+            android:text="TextView" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:text="@string/jcjg"
+            android:textColor="@color/black1" />
+
+        <TextView
+            android:id="@+id/item_pilenoquery_jcjg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/textView20"
+            android:gravity="center_vertical"
+            android:text="TextView" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:text="@string/qualitystation"
+            android:textColor="@color/black1" />
+
+        <TextView
+            android:id="@+id/item_pilenoquery_station"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/textView21"
+            android:gravity="center_vertical"
+            android:text="TextView" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_pilenoquery_rl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:text="@string/teststarttime"
+            android:textColor="@color/black1" />
+
+        <TextView
+            android:id="@+id/item_pilenoquery_starttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/textView23"
+            android:gravity="center_vertical"
+            android:text="TextView" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_pilenoquery_rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:text="@string/tallstarttime"
+            android:textColor="@color/black1" />
+
+        <TextView
+            android:id="@+id/item_pilenoquery_talltime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/textView24"
+            android:gravity="center_vertical"
+            android:text="TextView" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:text="@string/lookmore"
+            android:textColor="@color/red"
+            android:textSize="12sp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,234 @@
+<resources>
+    <string name="app_name">地基</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="spNmae">diji</string>
+
+    <!--homepage-->
+    <string name="pilesearch">基桩查询</string>
+    <string name="topbox">机顶盒</string>
+    <!--user-->
+    <string name="login">登录</string>
+    <string name="about">关于</string>
+    <string name="zrkj">中润电子科技</string>
+    <string name="system">福建省建筑工程地基基础工程检测系统</string>
+    <string name="tech_support">技术支持：福州中润电子科技有限公司</string>
+    <string name="str_username">账号</string>
+    <string name="str_password">密码</string>
+    <string name="remenbpwd">记住密码</string>
+    <string name="updatepwd">密码修改</string>
+    <string name="oldpwd">旧密码</string>
+    <string name="newpwd">新密码</string>
+    <string name="newpwdagain">新密码确认</string>
+    <string name="sure">确认</string>
+    <string name="pleaseinputagain">账号或者密码输入有误，请重新输入！</string>
+    <string name="loginsuccess">登录成功！</string>
+    <string name="logout">注销</string>
+    <string name="pleaseloginfirst">请先登录！</string>
+    <string name="cancel">取消</string>
+    <string name="prompt">提示</string>
+    <string name="logoutnow">确定注销当前账户吗？</string>
+    <string name="newpswnodifferent">新密码不一致</string>
+    <string name="errorinput">输入有误！</string>
+
+
+    <string name="title_activity_base_bottom_list">BaseBottomListActivity</string>
+    <string name="query">查询</string>
+    <string name="reset">重置</string>
+
+    <!--message-->
+    <string name="rank_message">排名消息</string>
+    <string name="service_msg">服务消息</string>
+
+
+    <string name="title_activity_base_back_title">BaseBackTitleActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="back">返回</string>
+
+    <string name="aboutwe">关于我们</string>
+
+    <!--***************pile********-->
+    <string name="pilequery">基桩查询</string>
+    <string name="firstest">先实验后备案</string>
+    <string name="notrecordpileno">未备案桩号</string>
+    <string name="pileinformationquery">桩点（号）信息查询</string>
+    <string name="piletestmanagement">基桩试验管理</string>
+    <string name="devicewarninginfo">设备警示信息</string>
+    <string name="staffwarninginfo">人员警示信息</string>
+    <string name="settopboxwarning">机顶盒异常告知</string>
+    <string name="qrcode">检测报告二维码检索</string>
+
+
+    <!--XListView-->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="datapostfail">数据请求失败！</string>
+    <string name="to">至</string>
+    <string name="pleaseselectwarninfo">警示信息(请选择)</string>
+    <string name="pleaseselecttestinfo">实验信息(请选择)</string>
+    <string name="pilenum">桩号</string>
+    <string name="jcjg">检测机构：</string>
+    <string name="pileNo">桩号：</string>
+    <string name="starttesttime">开始实验时间：</string>
+    <string name="hide">隐藏</string>
+    <string name="show">显示</string>
+    <string name="kn">最大负荷值(KN):</string>
+    <string name="testinfo">试验信息：</string>
+    <string name="lookmore"><![CDATA[查看详情>>>]]></string>
+    <string name="manname">人员姓名：</string>
+    <string name="warninfo">警示信息：</string>
+
+    <string name="teststart">基桩开始试验告知</string>
+    <string name="querytestinfo">正在试验基桩信息查询</string>
+    <string name="teststop">基桩中止试验告知</string>
+    <string name="testover">基桩结束试验告知</string>
+    <string name="jdhexception">机顶盒异常告知</string>
+    <string name="queryman">监督站静载监督员名单查询</string>
+    <string name="deviceNo">设备编号：</string>
+    <string name="devicename">设备名称：</string>
+    <string name="pilenoquery">桩号查询</string>
+    <string name="projectname">工程名称：</string>
+    <string name="qualitystation">质量监督站：</string>
+    <string name="teststarttime">试验开始时间：</string>
+    <string name="tallstarttime">开始告知时间：</string>
+    <string name="jdyArray">监督员名单</string>
+
+    <string name="PromptNoEquipmentID">设备id不存在</string>
+    <string name="PromptNoEquipment">不存在设备</string>
+    <string name="PromptNoParametersShort">参数不足</string>
+    <string name="PromptObjectCanNotNull">对象不能为空</string>
+    <string name="PromptPageParamIsNull">分页参数为空</string>
+    <string name="PromptCanNotFindInfo">没有查询到相关信息</string>
+    <string name="PromptNoPermission">没有查看权限</string>
+    <string name="notdata">暂无数据</string>
+    <string name="linkInternet">请求网络中...</string>
+    <string name="inspector_name">监督人员：</string>
+    <string name="inspector_address">监督单位：</string>
+    <string name="inspector_phone">联系电话：</string>
+
+    <string name="projectname1">工程名称</string>
+    <string name="qualitystation1">质量监督站</string>
+    <string name="pleaseselectstation">请选择质量监督站</string>
+    <string name="cacel">取消</string>
+
+    <!-- 以下是福建九地市相关变量 -->
+    <string name="PromptChoiceCity">请选择城市</string>
+    <string name="PromptCityFuZhou">福州市</string>
+    <string name="PromptCityPuTian">莆田市</string>
+    <string name="PromptCityQuanZhou">泉州市</string>
+    <string name="PromptCityXiMen">厦门市</string>
+    <string name="PromptCityLongYan">龙岩市</string>
+    <string name="PromptCityZhangZhou">漳州市</string>
+    <string name="PromptCitySanMing">三明市</string>
+    <string name="PromptCityNanPin">南平市</string>
+    <string name="PromptCityNingDe">宁德市</string>
+    <string name="PromptCityPingTan">平潭综合实验区建设工程质量监督站</string>
+    <string name="PromptCitySZ">福建省建设工程质量安全监督总站</string>
+    <string name="starttime">起始时间</string>
+    <string name="endtime">截止时间</string>
+    <string name="isupdate">检查更新</string>
+    <string name="credit_rank">信用排名</string>
+    <string name="warn_rank">预警排名</string>
+    <string name="piletest">基桩试验</string>
+    <string name="detectionmanage">检测管理</string>
+    <string name="loginfail">登录失败：</string>
+    <string name="connectfail">连接异常</string>
+    <string name="querytime">查询时间</string>
+    <string name="company">企业名称:</string>
+    <string name="totalscore">总分：</string>
+    <string name="rank">排名:</string>
+    <string name="jcjgname">检测机构名称:</string>
+    <string name="yearquarter">年季度:</string>
+    <string name="expectrank">预计排名:</string>
+    <string name="totalcompany">总企业数:</string>
+    <string name="connectnet">请求网络中...</string>
+    <string name="getdatafail">数据请求失败！</string>
+    <string name="testcalltime">试验(告知)时间</string>
+    <string name="PromptCityZZ">省总站</string>
+    <string name="detectionman">检测人员：</string>
+    <string name="manphone">人员联系号码：</string>
+    <string name="projecthead">项目负责人：</string>
+    <string name="headphone">负责人联系号码：</string>
+    <string name="piletype">基桩类型：</string>
+    <string name="testway">检测方式：</string>
+    <string name="maxloadvalues">预估最大荷载值：</string>
+    <string name="pileintensity">桩的强度：</string>
+    <string name="pilediameter">桩的直径：</string>
+    <string name="lookpicture">查看桩号对应图片</string>
+    <string name="starttest">开始试验</string>
+    <string name="pileinfo">基桩信息</string>
+    <string name="fillpicture">图片补传</string>
+    <string name="tall_30">实验开始30分钟之内必须进行开始告知操作</string>
+    <string name="restarttest">试验故障，重新开始试验</string>
+    <string name="pasedatafail">数据解析错误！</string>
+    <string name="stoptestfirst">请先中止试验，再进行重新开始试验!</string>
+    <string name="exp_no_permission">当前用户非该桩检测负责人员或现场试验员，无法进行操作!</string>
+    <string name="outtime">账户过期或者桩号异常</string>
+    <string name="lookpic">桩号对应图片</string>
+    <string name="nopic">暂无相关图片</string>
+    <string name="nopicnopush">没有查询到相应图片，请确认是否已经拍照上传！</string>
+    <string name="pushtime">上传时间</string>
+    <string name="reupdatetime">该图片为补传图片\n补传时间</string>
+    <string name="topboxconnectstatus">机顶盒静载仪连接情况</string>
+    <string name="positivefigure">配重正面图</string>
+    <string name="profile">配重侧面图</string>
+    <string name="above">配重上方图</string>
+    <string name="pilerecordword">基桩静载检测相关记录表</string>
+    <string name="takeconnectstatus">拍照补传机顶盒静载仪连接情况</string>
+    <string name="takepositive">拍照补传配重正面图</string>
+    <string name="takeside">拍照补传配重侧面图</string>
+    <string name="takeabove">拍照补传配重上方图</string>
+    <string name="takerecordword">拍照补传基桩静载检测相关记录表</string>
+    <string name="nosdcard">SDCard不存在！</string>
+    <string name="retakephoto">重拍</string>
+    <string name="fialtopic">图片加载失败!</string>
+    <string name="loadpic">图片加载请稍等。。。</string>
+    <string name="compressionfail">照片压缩失败</string>
+    <string name="nopermissions">摄像头权限被关闭，请在设置中打开权限！</string>
+    <string name="uploadphotofail">提交图片失败！</string>
+    <string name="uploadsucess">上传成功！</string>
+    <string name="warninfo1">重新开始试验将会清除已有相关数据，\n请确认是否继续?</string>
+    <string name="lookweight">查看压重堆载表格</string>
+    <string name="weightstack">压重堆载</string>
+    <string name="nodata">没有查询到相关信息</string>
+    <string name="tostoptest">结束试验确认</string>
+    <string name="topausetest">中止试验确认</string>
+    <string name="pausetime">时间：</string>
+    <string name="why">原因：</string>
+    <string name="whydescribe">原因描述</string>
+    <string name="alreadypaus">该实验已经中止！</string>
+    <string name="nonullwhy">原因内容不能为空！</string>
+
+    <string-array name="starttime">
+        <item>空(无字符)</item>
+        <item>昨天</item>
+        <item>今天</item>
+    </string-array>
+
+
+    <string-array name="fuzhoujiushi">
+        <item>福州市</item>
+        <item>莆田市</item>
+        <item>泉州市</item>
+        <item>厦门市</item>
+        <item>漳州市</item>
+        <item>龙岩市</item>
+        <item>三明市</item>
+        <item>南平市</item>
+        <item>宁德市</item>
+        <item>福建省建设工程质量安全监督总站</item>
+    </string-array>
+
+    <string-array name="quarternum">
+        <item>第一季度</item>
+        <item>第二季度</item>
+        <item>第三季度</item>
+        <item>第四季度</item>
+    </string-array>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_blue_bg"
+    tools:context="com.zrdz.diji.home.testmanage.activity.StartTestActivity">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView25"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/start_btn_sure"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/textView26"
+        android:layout_toStartOf="@+id/textView26"
+        android:background="@drawable/corner_list_bg"
+        android:text="@string/sure"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/start_btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/textView26"
+        android:layout_toEndOf="@+id/textView26"
+        android:background="@drawable/corner_list_bg"
+        android:text="@string/cancel"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="206dp"
+        android:gravity="center"
+        android:text="@string/warninfo1"
+        android:textColor="@color/red"
+        android:textSize="18sp" />
+</RelativeLayout>

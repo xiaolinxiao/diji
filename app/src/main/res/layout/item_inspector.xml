@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/corner_list_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:text="@string/inspector_name" />
+
+        <TextView
+            android:id="@+id/item_inspector_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/textView18"
+            android:gravity="center_vertical"
+            android:text="TextView" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:text="@string/inspector_address" />
+
+        <TextView
+            android:id="@+id/item_inspector_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/textView19"
+            android:gravity="center_vertical"
+            android:text="TextView" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:text="@string/inspector_phone" />
+
+        <TextView
+            android:id="@+id/item_inspector_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/textView20"
+            android:gravity="center_vertical"
+            android:text="TextView" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zrdz.diji">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".baseui.BaseActivity"
+            android:label="@string/title_activity_base"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".user.activity.AboutActivity" />
+        <activity
+            android:name=".baseui.BaseBackTitleActivity"
+            android:label="@string/title_activity_base_back_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".user.activity.LoginActivity" />
+        <activity android:name=".user.activity.UpdatePasswordActivity" />
+        <activity android:name=".home.pilequery.PileManageActivity" />
+        <activity
+            android:name=".baseui.BaseBottomListActivity"
+            android:label="@string/title_activity_base_bottom_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".home.pilequery.activity.PileQueryActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name=".home.pilequery.activity.TestFirstActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name=".home.pilequery.activity.NoRecordActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name=".home.pilequery.activity.DeviceWarnActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name=".home.pilequery.activity.ManWarnActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name=".home.testmanage.TestManageActivity" />
+        <activity android:name=".home.pilequery.activity.QrcodeActivity" />
+        <activity android:name=".home.base.Base1Activity" />
+        <activity
+            android:name=".home.testmanage.activity.QueryActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name=".home.pilequery.activity.JDHExceptionActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name=".home.testmanage.activity.InspectorActivity" />
+        <activity android:name=".home.testmanage.activity.InspectorDetailActivity" />
+        <activity android:name=".message.base.BaseRankActivity" />
+        <activity android:name=".message.activity.CreditRankActivity" />
+        <activity android:name=".message.activity.WarnRankActivity" />
+        <activity android:name=".home.testmanage.activity.PileInfoDetailActivity" />
+        <activity android:name=".home.testmanage.activity.RestartTestActivity" />
+        <activity android:name=".home.testmanage.activity.LookPicActivity" />
+        <activity
+            android:name=".home.testmanage.activity.FillPicActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|stateUnchanged" />
+        <activity android:name=".home.testmanage.activity.StartTestActivity" />
+        <activity android:name=".home.testmanage.activity.ShowWeightActivity" />
+        <activity android:name=".home.testmanage.activity.StopTestActivity" />
+        <activity android:name=".home.testmanage.activity.InfoSubmitActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_baselist_text1"
+            style="@style/pileContractItemText"
+            android:text="第:" />
+
+        <TextView
+            android:id="@+id/item_baselist_textcontent1"
+            style="@style/pileContractItemText"
+            android:layout_marginLeft="7dp"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_baselist_text2"
+            style="@style/pileContractItemText"
+            android:text="理论荷载:" />
+
+        <TextView
+            android:id="@+id/item_baselist_textcontent2"
+            style="@style/pileContractItemText"
+            android:layout_marginLeft="7dp"
+            android:text="付及时付及时福建省福建省付及时付及时福建省福建省" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_baselist_text3"
+            style="@style/pileContractItemText"
+            android:text="实测荷载:" />
+
+        <TextView
+            android:id="@+id/item_baselist_textcontent3"
+            style="@style/pileContractItemText"
+            android:layout_marginLeft="7dp"
+            android:text="付及时付及时福建省福建省付及时付及时福建省福建省" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_baselist_text4"
+            style="@style/pileContractItemText"
+            android:text="本级沉降:" />
+
+        <TextView
+            android:id="@+id/item_baselist_textcontent4"
+            style="@style/pileContractItemText"
+            android:layout_marginLeft="7dp"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_baselist_text5"
+            style="@style/pileContractItemText"
+            android:text="累计沉降:" />
+
+        <TextView
+            android:id="@+id/item_baselist_textcontent5"
+            style="@style/pileContractItemText"
+            android:layout_marginLeft="7dp"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_baselist_text6"
+            style="@style/pileContractItemText"
+            android:text="本级历时:" />
+
+        <TextView
+            android:id="@+id/item_baselist_textcontent6"
+            style="@style/pileContractItemText"
+            android:layout_marginLeft="7dp"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_baselist_text7"
+            style="@style/pileContractItemText"
+            android:text="累计历时:" />
+
+        <TextView
+            android:id="@+id/item_baselist_textcontent7"
+            style="@style/pileContractItemText"
+            android:layout_marginLeft="7dp"
+            android:text="" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

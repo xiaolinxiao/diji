@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_full_pic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_blue_bg"
+    tools:context="com.zrdz.diji.home.testmanage.activity.FillPicActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layout_choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/corner_list_bg"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_jingzai_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/heihome"
+            android:text="@string/takeconnectstatus"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_peizhongzheng_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/heihome"
+            android:text="@string/takepositive"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_peizhongce_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/heihome"
+            android:text="@string/takeside"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_peizhongshang_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/heihome"
+            android:text="@string/takeabove"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_report_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/heihome"
+            android:text="@string/takerecordword"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_attention"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="注意：在拍配重上方图时，若现场无法从上往下拍的，请拍取周边景象以证明无法从上往下拍照。"
+            android:textColor="@color/red"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layout_showimage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/fillpic_text_flag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="45663"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/fillpic_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/corner_list_bg"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/fillpic_btn_sure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/heihome"
+                    android:text="@string/sure"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/fillpic_btn_retakephoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/heihome"
+                    android:text="@string/retakephoto"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
