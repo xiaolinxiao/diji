@@ -28,6 +28,7 @@ public class UserInfo implements Serializable {
            pid:监管pid
            roleType: 用户角色
            userType:用户类型
+           id:用户id
            mobile :电话
            */
     public String loginName;
