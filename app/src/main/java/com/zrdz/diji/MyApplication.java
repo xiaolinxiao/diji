@@ -50,7 +50,7 @@ public class MyApplication extends Application {
     }
 
     /**
-     * image
+     * image 下载加载图片初始化
      *
      * @param context
      */
