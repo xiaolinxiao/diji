@@ -204,6 +204,7 @@
     <string name="whydescribe">原因描述</string>
     <string name="alreadypaus">该实验已经中止！</string>
     <string name="nonullwhy">原因内容不能为空！</string>
+    <string name="nomoredata">无更多数据！</string>
 
     <string-array name="starttime">
         <item>空(无字符)</item>

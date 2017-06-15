@@ -17,7 +17,7 @@
         android:textColor="@color/white"
         android:textSize="20sp" />
 
- 
+
     <FrameLayout
         android:id="@+id/main_fragment_layout"
         android:layout_width="match_parent"

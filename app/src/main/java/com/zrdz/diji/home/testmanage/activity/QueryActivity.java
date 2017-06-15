@@ -60,6 +60,8 @@ public class QueryActivity extends BaseBottomListActivity implements View.OnClic
                     pullToRefreshListView.onRefreshComplete();
                     break;
                 case 1:
+                    List<PileNoQueryInfo> pileNoQueryInfos = (List<PileNoQueryInfo>) msg.obj;
+                    list.addAll(pileNoQueryInfos);
                     adapter.notifyDataSetChanged();
                     progressDialog.dismiss();
                     pullToRefreshListView.onRefreshComplete();
@@ -145,9 +147,10 @@ public class QueryActivity extends BaseBottomListActivity implements View.OnClic
                     msg.what = 0;
                     handler.sendMessage(msg);
                 } else {
-                    list.addAll(pileNoQueryInfos);
                     Message msg = new Message();
                     msg.what = 1;
+                    msg.obj = pileNoQueryInfos;
+                    pileNoQueryInfos = null;//及时清空,防止其他界面加载数据时数据未能及时更新异常崩溃
                     handler.sendMessage(msg);
                 }
             }

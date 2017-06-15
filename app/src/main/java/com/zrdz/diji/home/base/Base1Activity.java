@@ -126,7 +126,11 @@ public class Base1Activity extends BaseBottomListActivity implements AdapterView
                 }.getType()) {
                     @Override
                     public void onResponse(boolean isFromCache, List<TestFirstInfo> testFirstInfos, Request request, @Nullable Response response) {
-                        list.addAll(testFirstInfos);
+                        if (null == testFirstInfos) {
+                            showToast(getString(R.string.nomoredata));
+                        } else {
+                            list.addAll(testFirstInfos);
+                        }
                         adapter.notifyDataSetChanged();
                         isQuery = false;
                         pullToRefreshListView.onRefreshComplete();
@@ -135,7 +139,7 @@ public class Base1Activity extends BaseBottomListActivity implements AdapterView
                     @Override
                     public void onError(boolean isFromCache, Call call, @Nullable Response response, @Nullable Exception e) {
                         super.onError(isFromCache, call, response, e);
-                        showToast(e.getMessage());
+                        showToast(getString(R.string.datapostfail));
                         isQuery = false;
                         pullToRefreshListView.onRefreshComplete();
                     }

@@ -78,7 +78,8 @@
         <activity android:name=".home.testmanage.activity.StartTestActivity" />
         <activity android:name=".home.testmanage.activity.ShowWeightActivity" />
         <activity android:name=".home.testmanage.activity.StopTestActivity" />
-        <activity android:name=".home.testmanage.activity.InfoSubmitActivity"></activity>
+        <activity android:name=".home.testmanage.activity.InfoSubmitActivity" />
+        <activity android:name=".home.pilequery.activity.PileInfoActivity"></activity>
     </application>
 
 </manifest>

@@ -86,7 +86,10 @@ public abstract class JsonCallback<T> extends AbsCallback<T> {
         } else if (dataList != null) {
             if (type != null) return new Gson().fromJson(dataList, type);
         } else if (status.equals("FALSE")) {
-            throw new IllegalStateException(result);
+            if ("查无数据".equals(result))
+                return null;
+            else
+                throw new IllegalStateException(result);
         } else if (status.equals("true")) {
             if (clazz == String.class && message != "") return (T) message;
             if (clazz == String.class && result != "") return (T) result;
