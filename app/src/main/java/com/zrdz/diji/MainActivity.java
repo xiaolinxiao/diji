@@ -17,7 +17,9 @@ import com.zrdz.diji.user.activity.LoginActivity;
 import com.zrdz.diji.utils.CommonUtils;
 import com.zrdz.diji.utils.Const;
 import com.zrdz.diji.utils.LogUtils;
-
+/**
+ *界面入口
+ */
 public class MainActivity extends BaseActivity {
 
     private BottomBar mBottomBar;
